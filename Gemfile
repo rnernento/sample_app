@@ -11,6 +11,8 @@ group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.8.1'
   gem 'annotate', '~> 2.4.1.beta'
+  gem 'cucumber-rails', '1.2.1', require: false
+  gem 'database_cleaner', '0.7.0'
 end
 
 
